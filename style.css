@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 100%;
+  padding: 50px 0;
+}
+
+.step{
+  width: 960px;
+}
+
+.step-title{
+  background-color: #ff9a4b;
+  position: absolute;
+}
+
+step1-{
+  width: 300px;
+  background-image: url(img/flow01.png);
+  background-size: auto 150px;
+  background-position: top;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+
+footer{
+  height: 50px;
+  background-color: #aaaaaa;
+}
