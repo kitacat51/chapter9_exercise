@@ -16,6 +16,9 @@ main{
 
 .step{
   width: 960px;
+  display: flex;
+  flex-wrap:wrap;
+  margin: auto;
 }
 
 .step-title{
@@ -23,14 +26,26 @@ main{
   position: absolute;
 }
 
-step1-{
+.step-box{
   width: 300px;
-  background-image: url(img/flow01.png);
-  background-size: auto 150px;
-  background-position: top;
-  padding: 10px;
-  background-repeat: no-repeat;
+  background-color: #eeeeee;
+  margin: 10px;
 }
+
+.step-image{
+  width: auto;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step-image:nth-child(odd){
+  margin: 10px 10px 10px 0;
+}
+
+.step-image:nth-child(1){
+  background-image: url(img/flow01.jpg);
 
 footer{
   height: 50px;
